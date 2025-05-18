@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Notes App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📝 My Notes</h1>
+      <button id="themeToggle">🌙</button>
+    </div>
+    <input type="text" id="searchInput" placeholder="🔍 Search notes..." />
+    
+    <textarea id="noteInput" placeholder="Write your note here..."></textarea>
+    <button onclick="addNote()">Add Note</button>
+    
+    <div id="notesContainer"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
